@@ -28,7 +28,7 @@ class PageOneState extends State<PageOne> {
             width: MediaQuery.of(context).size.width,
             child: Image(
               image: AssetImage(
-                "assets/patient.png",
+                "assets/lady_coughing.png",
               ),
               width: MediaQuery.of(context).size.width * 0.7,
               height: MediaQuery.of(context).size.height * 0.5,
