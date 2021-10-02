@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:heads_up_kovid/assessement%20pages/page_one.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,6 +38,16 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[]),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            _navigateToNextScreen(context);
+          },
         ));
   }
+}
+
+void _navigateToNextScreen(BuildContext context) {
+  Navigator.of(context)
+      .push(MaterialPageRoute(builder: (context) => PageOne()));
 }
