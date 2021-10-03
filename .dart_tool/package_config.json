@@ -74,8 +74,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_multiselect",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_multiselect-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "get",
+      "rootUri": "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/get-4.3.8",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -242,7 +254,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-10-02T22:43:02.056674Z",
+  "generated": "2021-10-03T18:40:30.893668Z",
   "generator": "pub",
   "generatorVersion": "2.14.2"
 }
